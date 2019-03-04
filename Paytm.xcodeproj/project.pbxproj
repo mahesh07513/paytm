@@ -13,6 +13,7 @@
 		18C5335222043203001D7C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C5335122043203001D7C24 /* Assets.xcassets */; };
 		18C5335522043203001D7C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C5335322043203001D7C24 /* LaunchScreen.storyboard */; };
 		18C5335E2204321F001D7C24 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C5335D2204321E001D7C24 /* SystemConfiguration.framework */; };
+		18C53363220433CB001D7C24 /* include in Resources */ = {isa = PBXBuildFile; fileRef = 18C53362220433CB001D7C24 /* include */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		18C5335422043203001D7C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C5335622043203001D7C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C5335D2204321E001D7C24 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18C533612204326C001D7C24 /* Paytm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Paytm-Bridging-Header.h"; sourceTree = "<group>"; };
+		18C53362220433CB001D7C24 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +61,9 @@
 		18C53349220431F6001D7C24 /* Paytm */ = {
 			isa = PBXGroup;
 			children = (
+				18C53362220433CB001D7C24 /* include */,
 				18C5334A220431F7001D7C24 /* AppDelegate.swift */,
+				18C533612204326C001D7C24 /* Paytm-Bridging-Header.h */,
 				18C5334C220431F7001D7C24 /* ViewController.swift */,
 				18C5334E220431F7001D7C24 /* Main.storyboard */,
 				18C5335122043203001D7C24 /* Assets.xcassets */,
@@ -137,6 +142,7 @@
 				18C5335522043203001D7C24 /* LaunchScreen.storyboard in Resources */,
 				18C5335222043203001D7C24 /* Assets.xcassets in Resources */,
 				18C53350220431F7001D7C24 /* Main.storyboard in Resources */,
+				18C53363220433CB001D7C24 /* include in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +309,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mahesh.Paytm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -321,7 +327,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mahesh.Paytm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
